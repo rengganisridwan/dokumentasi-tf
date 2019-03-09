@@ -13,3 +13,9 @@ img[alt$="><"] {
   margin: auto;
   float: none!important;
 }
+
+MathJax.Hub.Config({
+  "HTML-CSS": {minScaleAdjust: 90},
+  SVG: {minScaleAdjust: 90},
+  CommonHTML: {minScaleAdjust: 90}
+});
