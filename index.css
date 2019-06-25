@@ -1,21 +1,18 @@
-img[alt$=">"] {
-  float: right;
+.md-sidebar--secondary {
+  display: none;
 }
 
-img[alt$="<"] {
-  float: left;
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  /* line-height: 1.4em; */
+  /* word-wrap: break-word;
+  width: 550px; */
 }
 
-img[alt$="><"] {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-  float: none!important;
-}
-
-MathJax.Hub.Config({
-  "HTML-CSS": {minScaleAdjust: 90},
-  SVG: {minScaleAdjust: 90},
-  CommonHTML: {minScaleAdjust: 90}
-});
+/* .serif{
+  font-family: 'Noto Serif';
+  /* margin-left: auto;
+  margin-right: auto; */
+  
+} */
